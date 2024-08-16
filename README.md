@@ -14,15 +14,33 @@ The input will come from STDIN(this will require reading in N+1 lines
 from STDIN), and the output should be print to STDOUT. Use OOP with
 Java 8 to defeat Bowser and rescue the Princess in the fewest number
 of moves.
-## Sample Input:
+### Sample Input:
+```
 7
 -----p-
 -*****-
---b----
+--*----
 **-----
 -------
 -******
 --m----
-## Sample Output:
+```
+### Sample Output:
+```
 LEFT, LEFT, UP, UP, RIGHT, RIGHT, UP, UP, RIGHT, RIGHT, RIGHT,
 RIGHT, UP, UP, LEFT
+```
+### Required
+JDK 1.8 or later,
+Maven 3.2+
+
+###
+Build:
+```mvn clean package```
+
+###
+Run unit tests: 
+```mvn clean test```
+
+###
+Run:  ```java -jar target/game-1.0-SNAPSHOT.jar```
